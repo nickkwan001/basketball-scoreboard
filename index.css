@@ -1,0 +1,56 @@
+@font-face {
+    font-family:Cursed Timer ULiL;
+    src: url("fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+body{
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+h3, p, #add-points{
+    font-size: 40px;
+    margin: 10px auto;
+}
+
+#home, #guest{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+#home-score, #guest-score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #080001;
+    width: 150px;
+    height: 100px;
+    margin: auto 0;
+    font-size: 60px;
+    font-family: Cursed Timer ULiL, sans-serif;
+    color: #F94F6D;
+}
+
+#add-points button{
+    background: none;
+    border: 1px solid #9AABD8;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    font-family: Cursed Timer ULiL, sans-serif;
+    color: white;
+}
